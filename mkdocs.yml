@@ -1,0 +1,41 @@
+site_name: Level-4 Semester-II
+
+copyright: Copyright &#x1F12F; 2025 Mir Suhail Asarat
+
+nav:
+  - Courses: index.md
+  - CSE-420 Project/Thesis: cse-420.md
+  - CSE-421 Seminar: cse-421.md
+  - CCE-421 Cryptography and Network Security: cce-421.md
+  - CCE-423 Wireless and Cellular Communication: cce-423.md
+  - CIT-421 Computer Graphics and Image Processing: cit-421.md
+  - CIT-422 Computer Graphics and Image Processing Sessional: cit-422.md
+  - CIT-423 Machine Learning: cit-423.md
+
+theme:
+  name: readthedocs
+  locale: en
+  highlightjs: true
+  hljs_languages:
+    - yaml
+    - rust
+    - python
+    - c
+    - c++
+    - java
+    - python
+    - bash
+    - json
+    - md
+    - yaml
+
+markdown_extensions:
+  - footnotes
+  - pymdownx.extra
+  - admonition
+
+extra_css:
+  - css/custom.css
+
+extra_javascript:
+  - js/copy-code.js
