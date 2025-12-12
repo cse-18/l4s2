@@ -1,6 +1,6 @@
 site_name: Level-4 Semester-II
 
-copyright: Copyright &#x1F12F; 2025 Mir Suhail Asarat
+copyright: Copyright &#x1F12F; 2025 <a href=https://github.com/suhail-asarat>Mir Suhail Asarat</a>
 
 nav:
   - Courses: index.md
@@ -44,6 +44,7 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  # - pymdownx.blocks.caption
 
 
 extra_css:
